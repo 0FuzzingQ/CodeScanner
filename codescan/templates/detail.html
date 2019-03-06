@@ -1,0 +1,136 @@
+{% extends "base.html" %}{% load static %}
+{% block body %}
+<!-- 内容区域 -->
+        <div class="tpl-content-wrapper">
+
+            <div class="container-fluid am-cf">
+                <div class="row">
+                    <div class="am-u-sm-12 am-u-md-12 am-u-lg-9">
+                        <div class="page-header-heading"><span class="am-icon-home page-header-heading-icon"></span> 风险综述 <small>Summary</small></div>
+                        <p class="page-header-description"></p>
+                        {{ detail.0.desc }}
+                    </div>
+                    
+                </div>
+
+            </div>
+        </br>
+        <div class="container-fluid am-cf">
+                <div class="row">
+                    <div class="am-u-sm-12 am-u-md-12 am-u-lg-9">
+                        <div class="page-header-heading"><span class="am-icon-home page-header-heading-icon"></span> 风险类型 <small>Classification</small></div>
+                        <p class="page-header-description"></p>
+                        {{ detail.0.title }}
+                    </div>
+                    
+                </div>
+
+            </div>
+        </br>
+            <div class="container-fluid am-cf">
+                <div class="row">
+                    <div class="am-u-sm-12 am-u-md-12 am-u-lg-9">
+                        <div class="page-header-heading"><span class="am-icon-home page-header-heading-icon"></span> 代码定位 <small>{{detail.0.filepath}} in line {{detail.0.line}}</small></div>
+                        <p class="page-header-description"></p><pre>{{ detail.0.content }}</pre>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+            <div class="row-content am-cf">
+
+
+                
+               <!-- <div class="row">
+
+                    <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                        <div class="widget am-cf">
+                            <div class="widget-head am-cf">
+                                <div class="widget-title am-fl">添加任务</div>
+                                <div class="widget-function am-fr">
+                                    <a href="javascript:;" class="am-icon-cog"></a>
+                                </div>
+                            </div>
+                            <div class="widget-body am-fr">
+
+                                <form class="am-form tpl-form-border-form tpl-form-border-br" method="POST" action="/add/" enctype="multipart/form-data">
+                                    {% csrf_token %}
+                                    <div class="am-form-group">
+                                        <label for="user-name" class="am-u-sm-3 am-form-label">任务名称 <span class="tpl-form-line-small-title">Name</span></label>
+                                        <div class="am-u-sm-9">
+                                            <input type="text" class="tpl-form-input" id="taskname" placeholder="请输入任务名称" name="taskname">
+                                            <small>请填写任务名称以方便查看。</small>
+                                        </div>
+                                    </div>
+
+                                    
+
+                                    <div class="am-form-group">
+                                        <label for="user-phone" class="am-u-sm-3 am-form-label">代码提交 <span class="tpl-form-line-small-title">Method</span></label>
+                                        <div class="am-u-sm-9">
+                                            <select name="method" id="method" data-am-selected="{searchBox: 1}" style="display: none;">
+  <option value="a">Gitlab</option>
+  <option value="b">Rar</option>
+  <option value="o">Zip</option>
+</select><small>请确保代码完整以供扫描。</small>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="am-form-group">
+                                        <label class="am-u-sm-3 am-form-label">代码地址 <span class="tpl-form-line-small-title">Address</span></label>
+                                        <div class="am-u-sm-9">
+                                            <input type="text" placeholder="输入正确的gitlab地址" name="address" id="address">
+                                        </div>
+                                    </div>
+
+                                    <div class="am-form-group">
+                                        <label for="user-weibo" class="am-u-sm-3 am-form-label">代码文件 <span class="tpl-form-line-small-title">CodeFile</span></label>
+                                        <div class="am-u-sm-9">
+                                            <div class="am-form-group am-form-file">
+                                                
+                                                
+                                                <input id="doc-form-file" id="file" name="file" type="file" multiple="">选择文件
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+
+                                    <div class="am-form-group">
+                                        <label for="user-intro" class="am-u-sm-3 am-form-label">是否为java
+                                            <span class="tpl-form-line-small-title">Java</span></label>
+                                        <div class="am-u-sm-9">
+                                            <div class="tpl-switch">
+                                                <input type="checkbox" class="ios-switch bigswitch tpl-switch-btn" checked="" name="java" id="java">
+                                                <div class="tpl-switch-btn-view">
+                                                    <div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="am-form-group">
+                                        <label for="user-intro" class="am-u-sm-3 am-form-label">其他描述
+                                            <span class="tpl-form-line-small-title">Other</span></label>
+                                        <div class="am-u-sm-9">
+                                            <textarea class="" rows="10" id="other" name="other" placeholder="other content"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="am-form-group">
+                                        <div class="am-u-sm-9 am-u-sm-push-3">
+                                            <input type="submit" class="am-btn am-btn-primary tpl-btn-bg-color-success " />
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+
+                
+{% endblock %}
