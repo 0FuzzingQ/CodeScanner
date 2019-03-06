@@ -26,14 +26,14 @@ python3 redis celery djcelery
   
 ### 2 同步数据库
 
-<code>
+<pre>
   python3 manage.py makemigrations
   python3 manage.py migrate
-  </code>
+  </pre>
   
 ### 3 开启celery队列 + web
 
-<code>
+<pre>
   celery worker -A mysite -l debug -P eventlet
   python manage.py runserver
-  </code>
+  </pre>
