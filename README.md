@@ -19,10 +19,10 @@ python3 redis celery djcelery
 
 ### 1 安装代码
 
-<code>
+<pre>
   git clone https://github.com/0FuzzingQ/CodeScanner.git
   cd mysite
-  </code>
+  </pre>
   
 ### 2 同步数据库
 
