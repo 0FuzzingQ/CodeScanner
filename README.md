@@ -41,13 +41,13 @@ python3 redis celery djcelery
 ## demo
 
 ### 主页
-[!image](https://raw.githubusercontent.com/0FuzzingQ/CodeScanner/master/demo/cs.JPG)
+[!image](https://github.com/0FuzzingQ/CodeScanner/blob/master/demo/cs.JPG)
 
 ### 任务列表
-[!image](https://raw.githubusercontent.com/0FuzzingQ/CodeScanner/master/demo/cs2.JPG)
+[!image](https://github.com/0FuzzingQ/CodeScanner/blob/master/demo/cs2.JPG)
 
 ### 漏洞列表
-[!image](https://raw.githubusercontent.com/0FuzzingQ/CodeScanner/master/demo/cs3.JPG)
+[!image](https://github.com/0FuzzingQ/CodeScanner/blob/master/demo/cs3.JPG)
 
 ### 漏洞定位
-[!image](https://raw.githubusercontent.com/0FuzzingQ/CodeScanner/master/demo/cs4.JPG)
+[!image](https://github.com/0FuzzingQ/CodeScanner/blob/master/demo/cs4.JPG)
