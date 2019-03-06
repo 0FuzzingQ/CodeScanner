@@ -41,7 +41,7 @@ python3 redis celery djcelery
 ## demo
 
 ### 主页
-[!image](https://github.com/0FuzzingQ/CodeScanner/blob/master/demo/cs.JPG)
+<img src="https://raw.githubusercontent.com/0FuzzingQ/0FuzzingQ.github.io/master/img/12.JPG" alt="avatar">
 
 ### 任务列表
 [!image](https://github.com/0FuzzingQ/CodeScanner/blob/master/demo/cs2.JPG)
