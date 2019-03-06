@@ -37,3 +37,7 @@ python3 redis celery djcelery
   celery worker -A mysite -l debug -P eventlet
   python manage.py runserver
   </pre>
+  
+## demo
+
+[a](c:\\users\\aldin\\desktop\\cs.JPG)
