@@ -40,4 +40,14 @@ python3 redis celery djcelery
   
 ## demo
 
-[a](c:\\users\\aldin\\desktop\\cs.JPG)
+### 主页
+[!image](https://raw.githubusercontent.com/0FuzzingQ/CodeScanner/master/demo/cs.JPG)
+
+### 任务列表
+[!image](https://raw.githubusercontent.com/0FuzzingQ/CodeScanner/master/demo/cs2.JPG)
+
+### 漏洞列表
+[!image](https://raw.githubusercontent.com/0FuzzingQ/CodeScanner/master/demo/cs3.JPG)
+
+### 漏洞定位
+[!image](https://raw.githubusercontent.com/0FuzzingQ/CodeScanner/master/demo/cs4.JPG)
